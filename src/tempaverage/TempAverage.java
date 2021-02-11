@@ -15,7 +15,7 @@ public class TempAverage {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int temp[]=new int[5];
+        int temp[]=new int[14];
         Scanner input=new Scanner(System.in);
         TempAverage tem=new TempAverage();
         
@@ -26,6 +26,7 @@ public class TempAverage {
             System.out.println();
         }
         System.out.println(tem.calcAvg(temp));
+        tem.gitHub();
         
     }
     public int calcAvg(int[] temp){
@@ -44,5 +45,7 @@ public class TempAverage {
         System.out.println(sum);
         return  sum/count;
     }
-    
+    public void gitHub(){
+        System.out.println("Hello! I am in GitHub now ");   
+    }
 }
